@@ -12,9 +12,6 @@ apt install intel-microcode -y
 echo "Removendo pacotes desnecessários..."
 apt remove pidgin gnome-games --purge -y && apt autoremove -y
 
-echo "Habilitando botões de Maximizar e Minimizar..."
-sudo -u $SUDO_USER gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
-
 echo "Configurando o sources.list..."
 cat <<EOF > /etc/apt/sources.list
 deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
@@ -66,8 +63,8 @@ echo "Instalando Ruby..."
 apt install ruby-full -y
 
 echo "Instalando o Vagrant..."
-wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+wget -O - https://apt.releases.hashicorp.com/gpg | gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/hashicorp.list
 apt update && apt install vagrant
 
 echo "Instalando Docker..."
