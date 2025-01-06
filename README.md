@@ -23,7 +23,7 @@ Este script automatiza a configuração inicial do Debian 12 com a interface Gno
 1. Clone o Repositório
    ```
    git clone git@github.com:joaolucasrossato/post-install-debian.git
-   cd pos-configuracao-debian
+   cd post-install-debian
    ```
 2. Deixe o script executável.
    ```
