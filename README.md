@@ -12,7 +12,7 @@ Este script automatiza a configuração inicial do Debian 12 com a interface Gno
 * Instalação de ferramentas de compactação e descompactação.
 * Configuração do Flatpak e instalação de aplicativos úteis.
 * Personalização com tema de ícones Papirus.
-* Configuração de Git, Java e Ruby.
+* Configuração de Git, Java, Ruby, Vagrant e Docker.
 
 ### Requisitos
 * Sistema operacional Debian 12 (Bookworm).
