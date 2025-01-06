@@ -44,6 +44,5 @@ Este script automatiza a configuração inicial do Debian 12 com a interface Gno
 Tema de ícones Papirus:
 Instalado e configurado automaticamente para melhorar a estética do ambiente gráfico.
 
-### Licença
-Este projeto está licenciado sob a Licença MIT.
+
 
