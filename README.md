@@ -27,11 +27,11 @@ Este script automatiza a configuração inicial do Debian 12 com a interface Gno
    ```
 2. Deixe o script executável.
    ```
-   chmod +x pos-configuracao-debian.sh
+   chmod +x post-install.sh
    ```
 3. Execute o script como root:
    ```
-   sudo ./pos-configuracao-debian.sh
+   sudo ./post-install.sh
    ```                    
 
 ### Pacotes Instalados
