@@ -37,7 +37,7 @@ Este script automatiza a configuração inicial do Debian 12 com a interface Gno
 ### Pacotes Instalados
 
 * Atualizações do sistema: linux-image-amd64, linux-headers-amd64, intel-microcode.
-* Ferramentas essenciais: ufw, flatpak, arc, p7zip-full, git, openjdk-17-jdk, ruby-full, etc.
+* Ferramentas essenciais: ufw, flatpak, arc, p7zip-full, git, openjdk-17-jdk, ruby-full, docker, etc.
 * Aplicativos via Flatpak: Google Chrome, Firefox, Discord, Spotify, VLC, Visual Studio Code, Flameshot, e mais.
   
 ### Personalização
